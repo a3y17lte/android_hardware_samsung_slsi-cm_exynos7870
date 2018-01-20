@@ -41,15 +41,13 @@ struct s3c_fb_user_ion_client {
 enum decon_idma_type {
     IDMA_G0 = 0x0,
 	IDMA_G1,
-	IDMA_VG0,
-	IDMA_VG1,
-	IDMA_VGR0,
-	IDMA_VGR1,
-	IDMA_G2,
-	IDMA_G3,
-	IDMA_VGR0,
-        IDMA_VGR1,
-        IDMA_MAX
+    IDMA_G2,
+    IDMA_VG0,
+    IDMA_VG1,
+    IDMA_G3,
+    IDMA_VGR0,
+    IDMA_VGR1,
+    IDMA_MAX
 };
 
 enum decon_pixel_format {
