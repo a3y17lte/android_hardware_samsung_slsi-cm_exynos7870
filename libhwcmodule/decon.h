@@ -47,6 +47,9 @@ enum decon_idma_type {
 	IDMA_VGR1,
 	IDMA_G2,
 	IDMA_G3,
+	IDMA_VGR0,
+        IDMA_VGR1,
+        IDMA_MAX
 };
 
 enum decon_pixel_format {
