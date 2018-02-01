@@ -20,6 +20,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SHARED_LIBRARIES := liblog libcutils libion libutils libGLESv1_CM
 
 LOCAL_C_INCLUDES := \
@@ -30,6 +31,8 @@ LOCAL_C_INCLUDES := \
 LOCAL_SRC_FILES := 	\
 	gralloc.cpp 	\
 	mapper.cpp
+
+LOCAL_HEADER_LIBRARIES := libhardware_headers
 
 LOCAL_CFLAGS := -DLOG_TAG=\"gralloc\"
 
